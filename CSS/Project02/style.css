@@ -2,17 +2,19 @@
 .flexbox {
 
   display: flex;
-  border: 1px solid black;
-  justify-content: center;
+  width: 70%;
+  justify-content: space-around;
+  /*
   flex-wrap: wrap;
+  */
+  flex-flow: row wrap;
 
 }
 
 
 .images {
 
-  border: 1px solid black;
-  float: left;
+  /*float: left;*/
   margin: 20px;
 
 
