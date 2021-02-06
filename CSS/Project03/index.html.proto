@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Nth of Type</title>
+
+
+    <style>
+      .nav {
+	display: flex;
+      }
+
+      .opt {
+
+        width: 200px;
+        height: 50px;
+        background:  #01579B;
+
+      }
+
+      ul {
+        display: flex;
+        list-style: none;
+      }
+
+      ul div {
+
+        display: flex;
+        margin: 1px;
+        color: white;
+        font-family: Arial Narrow;
+        justify-content: center;
+        align-items: center;
+        
+
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="nav">
+      <ul>
+        <li><div class="opt">Home</div></li>
+        <li><div class="opt">About</div></li>
+        <li><div class="opt">Locations</div></li>
+        <li><div class="opt">FAQ</div></li>
+        <li><div class="opt">Contact</div></li>
+      </ul>
+    <div>
+  </body>
+</html>
